@@ -58,7 +58,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-primary text-white">
+    <section id="contact" className="py-24 bg-gray-50 text-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -70,7 +70,7 @@ export default function ContactSection() {
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">
             Let's Work Together
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to transform your marketing strategy? Get in touch and let's
             create something amazing together.
           </p>
@@ -84,19 +84,19 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+            <Card className="bg-white shadow-lg border-gray-200">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold mb-6">Send us a message</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-primary">Send us a message</h3>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <Label htmlFor="name" className="text-gray-300 mb-2 block">
+                      <Label htmlFor="name" className="text-gray-700 mb-2 block">
                         Name *
                       </Label>
                       <Input
                         id="name"
                         {...form.register("name")}
-                        className="bg-white/10 border-white/20 text-white placeholder-gray-400 focus:ring-accent focus:border-accent"
+                        className="bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-accent focus:border-accent"
                         placeholder="Your name"
                       />
                       {form.formState.errors.name && (
@@ -106,14 +106,14 @@ export default function ContactSection() {
                       )}
                     </div>
                     <div>
-                      <Label htmlFor="email" className="text-gray-300 mb-2 block">
+                      <Label htmlFor="email" className="text-gray-700 mb-2 block">
                         Email *
                       </Label>
                       <Input
                         id="email"
                         type="email"
                         {...form.register("email")}
-                        className="bg-white/10 border-white/20 text-white placeholder-gray-400 focus:ring-accent focus:border-accent"
+                        className="bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-accent focus:border-accent"
                         placeholder="your@email.com"
                       />
                       {form.formState.errors.email && (
@@ -124,25 +124,25 @@ export default function ContactSection() {
                     </div>
                   </div>
                   <div>
-                    <Label htmlFor="company" className="text-gray-300 mb-2 block">
+                    <Label htmlFor="company" className="text-gray-700 mb-2 block">
                       Company
                     </Label>
                     <Input
                       id="company"
                       {...form.register("company")}
-                      className="bg-white/10 border-white/20 text-white placeholder-gray-400 focus:ring-accent focus:border-accent"
+                      className="bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-accent focus:border-accent"
                       placeholder="Your company"
                     />
                   </div>
                   <div>
-                    <Label htmlFor="message" className="text-gray-300 mb-2 block">
+                    <Label htmlFor="message" className="text-gray-700 mb-2 block">
                       Message *
                     </Label>
                     <Textarea
                       id="message"
                       rows={5}
                       {...form.register("message")}
-                      className="bg-white/10 border-white/20 text-white placeholder-gray-400 focus:ring-accent focus:border-accent resize-none"
+                      className="bg-white border-gray-300 text-gray-900 placeholder-gray-500 focus:ring-accent focus:border-accent resize-none"
                       placeholder="Tell us about your project..."
                     />
                     {form.formState.errors.message && (
@@ -154,7 +154,7 @@ export default function ContactSection() {
                   <Button
                     type="submit"
                     disabled={contactMutation.isPending}
-                    className="w-full bg-accent text-white hover:bg-accent/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-lg py-4"
+                    className="w-full bg-primary text-white hover:bg-primary/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-lg py-4"
                   >
                     {contactMutation.isPending ? (
                       "Sending..."
@@ -181,15 +181,15 @@ export default function ContactSection() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Get in touch</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-primary">Get in touch</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center">
                     <Mail className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <p className="font-medium">Email</p>
-                    <p className="text-gray-300">hello@thesocialconcept.com</p>
+                    <p className="font-medium text-gray-900">Email</p>
+                    <p className="text-gray-600">hello@thesocialconcept.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -197,37 +197,37 @@ export default function ContactSection() {
                     <Phone className="w-6 h-6 text-green-500" />
                   </div>
                   <div>
-                    <p className="font-medium">Phone</p>
-                    <p className="text-gray-300">+1 (555) 123-4567</p>
+                    <p className="font-medium text-gray-900">Phone</p>
+                    <p className="text-gray-600">+1 (555) 123-4567</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
+              <h4 className="text-lg font-semibold mb-4 text-primary">Follow Us</h4>
               <div className="flex space-x-4">
                 <a
                   href="#"
-                  className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
                 >
                   <Twitter className="w-6 h-6" />
                 </a>
                 <a
                   href="#"
-                  className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
                 >
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a
                   href="#"
-                  className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
                 >
                   <Instagram className="w-6 h-6" />
                 </a>
                 <a
                   href="#"
-                  className="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors duration-200"
+                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
                 >
                   <FaTiktok className="w-6 h-6" />
                 </a>
