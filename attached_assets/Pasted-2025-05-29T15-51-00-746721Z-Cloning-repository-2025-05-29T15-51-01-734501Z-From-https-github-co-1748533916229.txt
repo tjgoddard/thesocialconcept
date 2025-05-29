@@ -1,0 +1,103 @@
+2025-05-29T15:51:00.746721Z	Cloning repository...
+2025-05-29T15:51:01.734501Z	From https://github.com/tjgoddard/thesocialconcept
+2025-05-29T15:51:01.735098Z	 * branch            fc5d1e0cd6d3e8b040028df8a8f17cc19f12df0d -> FETCH_HEAD
+2025-05-29T15:51:01.735264Z	
+2025-05-29T15:51:01.785031Z	HEAD is now at fc5d1e0 Specify the Node.js version used for the project to ensure compatibility
+2025-05-29T15:51:01.785569Z	
+2025-05-29T15:51:01.86535Z	
+2025-05-29T15:51:01.86596Z	Using v2 root directory strategy
+2025-05-29T15:51:01.890529Z	Success: Finished cloning repository files
+2025-05-29T15:51:03.766706Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-05-29T15:51:03.76777Z	
+2025-05-29T15:51:04.868442Z	No wrangler.toml file found. Continuing.
+2025-05-29T15:51:05.726398Z	Preparing yarn@3.6.3 for immediate activation...
+2025-05-29T15:51:06.035222Z	Preparing pnpm@8.7.1 for immediate activation...
+2025-05-29T15:51:06.062389Z	Detected the following tools from environment: nodejs@18.17.1, npm@9.6.7
+2025-05-29T15:51:06.06269Z	Installing project dependencies: npm clean-install --progress=false
+2025-05-29T15:51:07.474031Z	npm WARN EBADENGINE Unsupported engine {
+2025-05-29T15:51:07.474476Z	npm WARN EBADENGINE   package: 'connect-pg-simple@10.0.0',
+2025-05-29T15:51:07.47463Z	npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=22.0.0' },
+2025-05-29T15:51:07.474746Z	npm WARN EBADENGINE   current: { node: 'v18.17.1', npm: '9.6.7' }
+2025-05-29T15:51:07.474857Z	npm WARN EBADENGINE }
+2025-05-29T15:51:10.784574Z	npm WARN deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+2025-05-29T15:51:10.801706Z	npm WARN deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+2025-05-29T15:51:16.501422Z	
+2025-05-29T15:51:16.501708Z	added 481 packages, and audited 482 packages in 10s
+2025-05-29T15:51:16.502002Z	
+2025-05-29T15:51:16.502188Z	64 packages are looking for funding
+2025-05-29T15:51:16.502357Z	  run `npm fund` for details
+2025-05-29T15:51:16.534739Z	
+2025-05-29T15:51:16.535025Z	7 moderate severity vulnerabilities
+2025-05-29T15:51:16.535228Z	
+2025-05-29T15:51:16.535305Z	To address issues that do not require attention, run:
+2025-05-29T15:51:16.535385Z	  npm audit fix
+2025-05-29T15:51:16.535493Z	
+2025-05-29T15:51:16.535608Z	To address all issues (including breaking changes), run:
+2025-05-29T15:51:16.535698Z	  npm audit fix --force
+2025-05-29T15:51:16.535869Z	
+2025-05-29T15:51:16.536Z	Run `npm audit` for details.
+2025-05-29T15:51:16.557472Z	Executing user command: npm install && npm run build
+2025-05-29T15:51:17.554756Z	npm WARN EBADENGINE Unsupported engine {
+2025-05-29T15:51:17.555251Z	npm WARN EBADENGINE   package: 'connect-pg-simple@10.0.0',
+2025-05-29T15:51:17.555503Z	npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=22.0.0' },
+2025-05-29T15:51:17.555635Z	npm WARN EBADENGINE   current: { node: 'v18.17.1', npm: '9.6.7' }
+2025-05-29T15:51:17.555808Z	npm WARN EBADENGINE }
+2025-05-29T15:51:18.149344Z	
+2025-05-29T15:51:18.149601Z	up to date, audited 482 packages in 1s
+2025-05-29T15:51:18.149739Z	
+2025-05-29T15:51:18.149858Z	64 packages are looking for funding
+2025-05-29T15:51:18.149989Z	  run `npm fund` for details
+2025-05-29T15:51:18.186886Z	
+2025-05-29T15:51:18.1872Z	7 moderate severity vulnerabilities
+2025-05-29T15:51:18.187357Z	
+2025-05-29T15:51:18.187508Z	To address issues that do not require attention, run:
+2025-05-29T15:51:18.187659Z	  npm audit fix
+2025-05-29T15:51:18.187784Z	
+2025-05-29T15:51:18.187915Z	To address all issues (including breaking changes), run:
+2025-05-29T15:51:18.188056Z	  npm audit fix --force
+2025-05-29T15:51:18.188184Z	
+2025-05-29T15:51:18.1883Z	Run `npm audit` for details.
+2025-05-29T15:51:18.725903Z	
+2025-05-29T15:51:18.726174Z	> rest-express@1.0.0 build
+2025-05-29T15:51:18.726696Z	> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+2025-05-29T15:51:18.726851Z	
+2025-05-29T15:51:18.974472Z	[36mvite v5.4.14 [32mbuilding for production...[36m[39m
+2025-05-29T15:51:19.031656Z	transforming...
+2025-05-29T15:51:19.330029Z	Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+2025-05-29T15:51:19.330385Z	  npx update-browserslist-db@latest
+2025-05-29T15:51:19.330488Z	  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-05-29T15:51:23.992388Z	[32m✓[39m 2126 modules transformed.
+2025-05-29T15:51:24.308598Z	rendering chunks...
+2025-05-29T15:51:24.320825Z	computing gzip size...
+2025-05-29T15:51:24.341385Z	[2m../dist/public/[22m[32mindex.html                                [39m[1m[2m    0.63 kB[22m[1m[22m[2m │ gzip:   0.38 kB[22m
+2025-05-29T15:51:24.341681Z	[2m../dist/public/[22m[2massets/[22m[32m1664641185363-D8m5z-qx.jpeg        [39m[1m[2m   45.38 kB[22m[1m[22m
+2025-05-29T15:51:24.341788Z	[2m../dist/public/[22m[2massets/[22m[32mimage-BhwT5RbX.png                 [39m[1m[2m1,416.69 kB[22m[1m[22m
+2025-05-29T15:51:24.341961Z	[2m../dist/public/[22m[2massets/[22m[32mfotor-20250506155321-CKA2jy1L.png  [39m[1m[2m3,458.17 kB[22m[1m[22m
+2025-05-29T15:51:24.342067Z	[2m../dist/public/[22m[2massets/[22m[35mindex-CJy-dGYu.css                 [39m[1m[2m   67.61 kB[22m[1m[22m[2m │ gzip:  11.77 kB[22m
+2025-05-29T15:51:24.342183Z	[2m../dist/public/[22m[2massets/[22m[36mindex-RpRj9_B0.js                  [39m[1m[33m  529.41 kB[39m[22m[2m │ gzip: 164.87 kB[22m
+2025-05-29T15:51:24.342309Z	[33m
+2025-05-29T15:51:24.342408Z	[32m✓ built in 5.34s[39m
+2025-05-29T15:51:24.342641Z	(!) Some chunks are larger than 500 kB after minification. Consider:
+2025-05-29T15:51:24.342812Z	- Using dynamic import() to code-split the application
+2025-05-29T15:51:24.342919Z	- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-05-29T15:51:24.343054Z	- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+2025-05-29T15:51:24.394604Z	
+2025-05-29T15:51:24.394865Z	  dist/index.js  6.3kb
+2025-05-29T15:51:24.395002Z	
+2025-05-29T15:51:24.395639Z	⚡ Done in 8ms
+2025-05-29T15:51:24.413646Z	Finished
+2025-05-29T15:51:25.368854Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-05-29T15:51:25.369435Z	
+2025-05-29T15:51:26.476795Z	No wrangler.toml file found. Continuing.
+2025-05-29T15:51:26.477673Z	Note: No functions dir at /functions found. Skipping.
+2025-05-29T15:51:26.477856Z	Validating asset output directory
+2025-05-29T15:51:29.141871Z	Deploying your site to Cloudflare's global network...
+2025-05-29T15:51:31.228137Z	Uploading... (3/7)
+2025-05-29T15:51:31.748153Z	Uploading... (4/7)
+2025-05-29T15:51:32.042905Z	Uploading... (5/7)
+2025-05-29T15:51:32.265435Z	Uploading... (7/7)
+2025-05-29T15:51:32.265876Z	✨ Success! Uploaded 4 files (3 already uploaded) (1.38 sec)
+2025-05-29T15:51:32.266113Z	
+2025-05-29T15:51:32.671687Z	✨ Upload complete!
+2025-05-29T15:51:35.919507Z	Success: Assets published!
+2025-05-29T15:51:37.726821Z	Success: Your site was deployed!
