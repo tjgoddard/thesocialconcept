@@ -234,10 +234,10 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <Card className="bg-white/5 border-white/10">
+            <Card className="bg-white shadow-md border-gray-200">
               <CardContent className="p-6">
-                <h4 className="text-lg font-semibold mb-2">Ready to get started?</h4>
-                <p className="text-gray-300 mb-4">
+                <h4 className="text-lg font-semibold mb-2 text-primary">Ready to get started?</h4>
+                <p className="text-gray-600 mb-4">
                   Book a free 30-minute strategy call to discuss your marketing goals.
                 </p>
                 <a
