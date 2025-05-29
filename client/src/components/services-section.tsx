@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Mail, MessageSquare, Facebook, Twitch, ShoppingBag } from "lucide-react";
+import { Mail, MessageSquare, Facebook } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
@@ -22,16 +23,10 @@ const services = [
     color: "bg-blue-500/10 text-blue-600",
   },
   {
-    icon: Twitch,
+    icon: FaTiktok,
     title: "Paid TikTok Ads",
     description: "Creative TikTok advertising strategies that capture attention and drive engagement with younger audiences.",
-    color: "bg-pink-500/10 text-pink-600",
-  },
-  {
-    icon: ShoppingBag,
-    title: "TikTok Shop Optimization",
-    description: "Complete TikTok Shop setup and optimization to maximize social commerce opportunities and sales.",
-    color: "bg-purple-500/10 text-purple-600",
+    color: "bg-black/10 text-black",
   },
 ];
 
@@ -55,7 +50,7 @@ export default function ServicesSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
