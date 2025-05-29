@@ -27,7 +27,6 @@ export default function HeroSection() {
         <div className="absolute top-40 right-20 w-24 h-24 bg-green-500/10 rounded-full blur-lg floating-animation-delayed"></div>
         <div className="absolute bottom-20 left-1/4 w-40 h-40 bg-accent/5 rounded-full blur-2xl floating-animation-slow"></div>
       </div>
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,9 +49,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
-          >
-            We're a creative marketing agency focused on big ideas, sharp execution, and measurable performance.
-          </motion.p>
+          >We're a performance marketing agency focused on big ideas, sharp execution, and measurable performance.</motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
