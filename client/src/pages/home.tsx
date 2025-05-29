@@ -4,7 +4,6 @@ import ServicesSection from "@/components/services-section";
 import AboutSection from "@/components/about-section";
 import StrategySection from "@/components/strategy-section";
 import ExperienceSection from "@/components/experience-section";
-import ReferencesSection from "@/components/references-section";
 import ContactSection from "@/components/contact-section";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         <AboutSection />
         <StrategySection />
         <ExperienceSection />
-        <ReferencesSection />
         <ContactSection />
       </main>
       <footer className="bg-gray-900 text-gray-400 py-12">
