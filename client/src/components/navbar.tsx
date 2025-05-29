@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@assets/image.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +48,7 @@ export default function Navbar() {
               className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
             >
               <img
-                src="@assets/image.png"
+                src={logoImage}
                 alt="The Social Concept"
                 className="h-10 w-auto"
               />
