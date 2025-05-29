@@ -40,7 +40,7 @@ const strategies = [
     details: [
       "Performance Tracking",
       "ROI Analysis",
-      "Monthly Reporting",
+      "Recurring Reporting",
       "Strategic Recommendations",
     ],
     gradient: "from-purple-50 to-purple-100",
