@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Lightbulb, TrendingUp, Users } from "lucide-react";
+import danielleImage from "@assets/1664641185363.jpeg";
+import travisImage from "@assets/fotor-20250506155321.png";
 
 export default function AboutSection() {
   return (
@@ -75,29 +77,29 @@ export default function AboutSection() {
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120"
-                  alt="Co-founder portrait"
+                  src={danielleImage}
+                  alt="Danielle Chmelik"
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>
                   <h4 className="text-lg font-semibold text-primary">
-                    Alex Thompson
+                    Danielle Chmelik
                   </h4>
-                  <p className="text-gray-600">Co-Founder & Creative Director</p>
+                  <p className="text-gray-600">Co-Founder & Retention Strategy</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
                 <img
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&h=120"
-                  alt="Co-founder portrait"
+                  src={travisImage}
+                  alt="Travis Goddard"
                   className="w-16 h-16 rounded-full object-cover"
                 />
                 <div>
                   <h4 className="text-lg font-semibold text-primary">
-                    Sarah Chen
+                    Travis Goddard
                   </h4>
-                  <p className="text-gray-600">Co-Founder & Strategy Lead</p>
+                  <p className="text-gray-600">Co-Founder & Performance Marketing</p>
                 </div>
               </div>
             </div>
