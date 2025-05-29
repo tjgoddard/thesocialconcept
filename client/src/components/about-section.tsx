@@ -16,8 +16,7 @@ export default function AboutSection() {
             Who We Are
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            We're a team of creative strategists, performance marketers, and
-            cultural trendsetters who believe in data-driven creativity and
+            We're a team of performance marketers who believe in data-driven creativity and
             results that matter.
           </p>
         </motion.div>
