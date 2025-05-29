@@ -189,7 +189,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-gray-300">hello@agency.com</p>
+                    <p className="text-gray-300">hello@thesocialconcept.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
