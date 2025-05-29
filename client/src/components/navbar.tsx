@@ -41,7 +41,7 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 py-2">
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("home")}
@@ -50,7 +50,7 @@ export default function Navbar() {
               <img
                 src={logoImage}
                 alt="The Social Concept"
-                className="h-24 w-auto"
+                className="h-32 w-auto"
               />
             </button>
           </div>
