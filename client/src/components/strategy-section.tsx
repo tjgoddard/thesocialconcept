@@ -8,7 +8,7 @@ const strategies = [
   {
     icon: Sword,
     title: "Strategy & Planning",
-    description: "We start by auditing your entire growth ecosystem to uncover opportunities across paid media and retention channels. Then, we develop a full-funnel strategy that aligns market insights and competitive analysis with your brand's growth goals.",
+    description: "We start by auditing your entire growth ecosystem to uncover opportunities across paid media and retention channels. Then, we develop a full-funnel strategy that aligns with your brand's growth goals.",
     details: [
       "Market Research & Analysis",
       "Audience Segmentation",
