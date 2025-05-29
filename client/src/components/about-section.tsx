@@ -17,9 +17,7 @@ export default function AboutSection() {
           <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
             Who We Are
           </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            A team of marketing enthusiasts who help ambitious brands launch faster, scale smarter, and grow with intention.
-          </p>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">We're a team of brand builders and marketing pros who help ambitious brands launch faster, scale smarter, and grow with intention.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
