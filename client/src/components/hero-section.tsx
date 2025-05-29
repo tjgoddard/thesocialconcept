@@ -51,9 +51,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
           >
-            We're a creative marketing agency that's culturally tuned in,
-            strategically focused, and obsessed with driving results for modern
-            brands.
+            We're a creative marketing agency focused on big ideas, sharp execution, and measurable performance.
           </motion.p>
 
           <motion.div
