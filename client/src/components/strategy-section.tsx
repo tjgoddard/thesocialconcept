@@ -22,9 +22,8 @@ const strategies = [
   {
     icon: Rocket,
     title: "Execution & Management",
-    description: "Platform-specific campaign execution with creative development, audience targeting, and ongoing optimization management.",
+    description: "Platform-specific campaign execution with audience targeting, and ongoing optimization management.",
     details: [
-      "Creative Asset Development",
       "Campaign Setup & Launch",
       "Daily Optimization",
       "A/B Testing Management",
