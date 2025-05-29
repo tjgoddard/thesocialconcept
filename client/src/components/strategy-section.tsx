@@ -16,7 +16,7 @@ const strategies = [
     ],
     gradient: "from-accent/5 to-accent/10",
     iconColor: "bg-accent/20 text-accent",
-    buttonColor: "text-accent hover:text-accent/80",
+    buttonColor: "text-accent-foreground hover:text-accent-foreground bg-accent hover:bg-accent/90",
     checkColor: "text-accent",
   },
   {
@@ -30,7 +30,7 @@ const strategies = [
     ],
     gradient: "from-green-500/5 to-green-500/10",
     iconColor: "bg-green-500/20 text-green-600",
-    buttonColor: "text-green-600 hover:text-green-600/80",
+    buttonColor: "text-green-700 hover:text-green-800 bg-green-100 hover:bg-green-200",
     checkColor: "text-green-600",
   },
   {
@@ -45,7 +45,7 @@ const strategies = [
     ],
     gradient: "from-purple-50 to-purple-100",
     iconColor: "bg-purple-200 text-purple-600",
-    buttonColor: "text-purple-600 hover:text-purple-500",
+    buttonColor: "text-purple-700 hover:text-purple-800 bg-purple-100 hover:bg-purple-200",
     checkColor: "text-purple-600",
   },
 ];
