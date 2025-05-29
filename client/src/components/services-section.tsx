@@ -18,13 +18,13 @@ const services = [
   },
   {
     icon: Facebook,
-    title: "Paid Meta Ads",
+    title: "Meta Advertising",
     description: "Facebook and Instagram advertising campaigns optimized for maximum reach and conversion rates.",
     color: "bg-blue-500/10 text-blue-600",
   },
   {
     icon: FaTiktok,
-    title: "Paid TikTok Ads",
+    title: "TikTok Advertising",
     description: "Creative TikTok advertising strategies that capture attention and drive engagement with younger audiences.",
     color: "bg-black/10 text-black",
   },
