@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Sword, Rocket, BarChart3, Check, ChevronDown, ChevronUp } from "lucide-react";
+import { Target, Rocket, BarChart3, Check, ChevronDown, ChevronUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const strategies = [
   {
-    icon: Sword,
+    icon: Target,
     title: "Strategy & Planning",
     description: "Growth ecosystem audit to uncover opportunities across paid media and retention channels. Development of a full funnel strategy in alignment with your brand's growth goals.",
     details: [
