@@ -10,9 +10,8 @@ const strategies = [
     title: "Strategy & Planning",
     description: "We start by auditing your entire growth ecosystem to uncover opportunities across paid media and retention channels. Then, we develop a full-funnel strategy that aligns with your brand's growth goals.",
     details: [
-      "Market Research & Analysis",
+      "Full Program Audit",
       "Audience Segmentation",
-      "Competitive Intelligence",
       "Channel Strategy Development",
     ],
     gradient: "from-accent/5 to-accent/10",
