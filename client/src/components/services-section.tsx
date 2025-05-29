@@ -23,14 +23,14 @@ const services = [
   },
   {
     icon: Twitch,
-    title: "Paid Twitch Ads",
-    description: "Creative Twitch advertising strategies that capture attention and drive engagement with younger audiences.",
+    title: "Paid TikTok Ads",
+    description: "Creative TikTok advertising strategies that capture attention and drive engagement with younger audiences.",
     color: "bg-pink-500/10 text-pink-600",
   },
   {
     icon: ShoppingBag,
-    title: "Twitch Shop Optimization",
-    description: "Complete Twitch Shop setup and optimization to maximize social commerce opportunities and sales.",
+    title: "TikTok Shop Optimization",
+    description: "Complete TikTok Shop setup and optimization to maximize social commerce opportunities and sales.",
     color: "bg-purple-500/10 text-purple-600",
   },
 ];
