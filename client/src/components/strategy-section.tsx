@@ -25,8 +25,8 @@ const strategies = [
     description: "Platform-specific campaign execution with audience targeting, and ongoing optimization management.",
     details: [
       "Campaign Setup & Launch",
-      "Daily Optimization",
       "A/B Testing Management",
+      "Ongoing Optimizations",
     ],
     gradient: "from-green-500/5 to-green-500/10",
     iconColor: "bg-green-500/20 text-green-600",
