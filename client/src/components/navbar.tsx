@@ -45,16 +45,13 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("home")}
-              className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity"
             >
               <img
                 src={logoImage}
                 alt="The Social Concept"
-                className="h-10 w-auto"
+                className="h-12 w-auto"
               />
-              <span className="text-xl font-bold text-primary hidden sm:block">
-                The Social Concept
-              </span>
             </button>
           </div>
 
