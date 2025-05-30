@@ -22,7 +22,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="text-2xl font-bold text-white mb-4">The Social Concept</div>
-            <p className="mb-4">Strategy First, Performance Obsessed, Culturally Tuned In</p>
+            <p className="mb-4">Strategy First, Performance Obsessed</p>
             <p className="text-sm">&copy; 2024 The Social Concept. All rights reserved.</p>
           </div>
         </div>
