@@ -26,6 +26,10 @@ export default function HeroSection() {
         <div className="absolute top-20 left-10 w-32 h-32 bg-accent/20 rounded-full blur-lg floating-animation"></div>
         <div className="absolute top-40 right-20 w-24 h-24 bg-green-500/20 rounded-full blur-md floating-animation-delayed"></div>
         <div className="absolute bottom-20 left-1/4 w-40 h-40 bg-accent/15 rounded-full blur-xl floating-animation-slow"></div>
+        <div className="absolute top-1/3 right-1/4 w-28 h-28 bg-teal-500/15 rounded-full blur-lg floating-animation"></div>
+        <div className="absolute bottom-1/3 right-10 w-20 h-20 bg-accent/25 rounded-full blur-md floating-animation-delayed"></div>
+        <div className="absolute top-1/2 left-20 w-16 h-16 bg-green-500/15 rounded-full blur-sm floating-animation-slow"></div>
+        <div className="absolute bottom-40 right-1/3 w-36 h-36 bg-accent/10 rounded-full blur-xl floating-animation"></div>
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
         <motion.div
