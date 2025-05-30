@@ -75,6 +75,30 @@ export default function ServicesSection() {
             </motion.div>
           ))}
         </div>
+        
+        {/* Schedule a Call CTA */}
+        <motion.div
+          className="text-center mt-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <h3 className="text-2xl font-semibold text-primary mb-4">
+            Ready to accelerate your growth?
+          </h3>
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+            Let's discuss how our targeted marketing strategies can drive real results for your business.
+          </p>
+          <a
+            href="https://calendly.com/thesocialconcept"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
+            Schedule A Call
+          </a>
+        </motion.div>
       </div>
     </section>
   );

@@ -77,7 +77,7 @@ export default function ContactSection() {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
+          {/* Email Submission Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -85,19 +85,76 @@ export default function ContactSection() {
             viewport={{ once: true }}
           >
             <Card className="bg-white shadow-lg border-gray-200">
-              <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-semibold mb-6 text-primary">Ready to get started?</h3>
-                <p className="text-gray-600 mb-8">Book a free 30-minute strategy call to discuss your marketing goals and see how we can help accelerate your growth.</p>
-                <Button
-                  onClick={() => {
-                    // Calendly link will be added here
-                    console.log("Schedule call clicked - Calendly link needed");
-                  }}
-                  className="w-full bg-primary text-white hover:bg-primary/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-lg py-4"
-                >
-                  Schedule A Call
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
+              <CardContent className="p-8">
+                <h3 className="text-2xl font-semibold mb-6 text-primary">Send us a message</h3>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                  <div>
+                    <Label htmlFor="name" className="text-gray-700">Name *</Label>
+                    <Input
+                      id="name"
+                      {...form.register("name")}
+                      className="mt-2"
+                      placeholder="Your full name"
+                    />
+                    {form.formState.errors.name && (
+                      <p className="text-red-500 text-sm mt-1">{form.formState.errors.name.message}</p>
+                    )}
+                  </div>
+
+                  <div>
+                    <Label htmlFor="email" className="text-gray-700">Email *</Label>
+                    <Input
+                      id="email"
+                      type="email"
+                      {...form.register("email")}
+                      className="mt-2"
+                      placeholder="your@email.com"
+                    />
+                    {form.formState.errors.email && (
+                      <p className="text-red-500 text-sm mt-1">{form.formState.errors.email.message}</p>
+                    )}
+                  </div>
+
+                  <div>
+                    <Label htmlFor="company" className="text-gray-700">Company</Label>
+                    <Input
+                      id="company"
+                      {...form.register("company")}
+                      className="mt-2"
+                      placeholder="Your company name"
+                    />
+                  </div>
+
+                  <div>
+                    <Label htmlFor="message" className="text-gray-700">Message *</Label>
+                    <Textarea
+                      id="message"
+                      {...form.register("message")}
+                      className="mt-2 min-h-[120px]"
+                      placeholder="Tell us about your project and goals..."
+                    />
+                    {form.formState.errors.message && (
+                      <p className="text-red-500 text-sm mt-1">{form.formState.errors.message.message}</p>
+                    )}
+                  </div>
+
+                  <Button
+                    type="submit"
+                    disabled={contactMutation.isPending || isSubmitted}
+                    className="w-full bg-accent text-white hover:bg-accent/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl text-lg py-4"
+                  >
+                    {contactMutation.isPending ? (
+                      "Sending..."
+                    ) : isSubmitted ? (
+                      "Message Sent!"
+                    ) : (
+                      <>
+                        Send Message
+                        <Send className="w-4 h-4 ml-2" />
+                      </>
+                    )}
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </motion.div>
@@ -164,21 +221,7 @@ export default function ContactSection() {
               </div>
             </div>
 
-            <Card className="bg-white shadow-md border-gray-200">
-              <CardContent className="p-6">
-                <h4 className="text-lg font-semibold mb-2 text-primary">Ready to get started?</h4>
-                <p className="text-gray-600 mb-4">
-                  Book a free 30-minute strategy call to discuss your marketing goals.
-                </p>
-                <a
-                  href="#"
-                  className="inline-flex items-center text-accent hover:text-accent/80 font-medium transition-colors duration-200"
-                >
-                  Schedule a call
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </a>
-              </CardContent>
-            </Card>
+
           </motion.div>
         </div>
       </div>
