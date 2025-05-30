@@ -69,7 +69,7 @@ export default function HeroSection() {
               onClick={scrollToServices}
               variant="outline"
               size="lg"
-              className="px-8 py-4 text-lg font-medium border-gray-200 text-gray-700 hover:border-accent hover:bg-accent hover:text-white transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+              className="px-8 py-4 text-lg font-semibold border-gray-200 text-gray-700 hover:border-gray-300 hover:bg-gray-100 hover:text-gray-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Our Services
             </Button>
