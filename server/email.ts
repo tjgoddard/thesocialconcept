@@ -54,7 +54,7 @@ This message was sent from The Social Concept website contact form.
 
     await postmarkClient.sendEmail({
       From: 'hello@thesocialconcept.com', // You'll need to verify this email in Postmark
-      To: 'hello@thesocialconcept.com', // Where you want to receive contact form emails
+      To: 'danielle@thesocialconcept.co', // Where you want to receive contact form emails
       Subject: `New Contact: ${contact.name}`,
       HtmlBody: htmlBody,
       TextBody: textBody,
