@@ -71,8 +71,7 @@ export default function ContactSection() {
             Let's Work Together
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to transform your marketing strategy? Get in touch and let's
-            create something amazing together.
+            Get in touch now.
           </p>
         </motion.div>
 
