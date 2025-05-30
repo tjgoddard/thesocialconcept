@@ -16,7 +16,7 @@ const strategies = [
     ],
     gradient: "from-accent/5 to-accent/10",
     iconColor: "bg-accent/20 text-accent",
-    buttonColor: "text-accent-foreground hover:text-accent-foreground bg-accent hover:bg-accent/90",
+    buttonColor: "text-purple-700 hover:text-purple-800 bg-purple-100 hover:bg-purple-200",
     checkColor: "text-accent",
   },
   {
