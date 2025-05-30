@@ -62,19 +62,19 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Button
+              onClick={scrollToServices}
+              variant="outline"
+              size="lg"
+              className="px-8 py-4 text-lg font-medium border-gray-200 text-gray-700 hover:border-accent hover:bg-accent hover:text-white transition-all duration-200"
+            >
+              Our Services
+            </Button>
+            <Button
               onClick={scrollToContact}
               size="lg"
               className="bg-accent text-white px-8 py-4 text-lg font-semibold hover:bg-accent/90 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               Let's Work Together
-            </Button>
-            <Button
-              onClick={scrollToServices}
-              variant="outline"
-              size="lg"
-              className="px-8 py-4 text-lg font-medium border-gray-200 hover:border-accent hover:text-accent transition-all duration-200"
-            >
-              Our Services
             </Button>
           </motion.div>
         </motion.div>
