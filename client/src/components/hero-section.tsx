@@ -31,7 +31,7 @@ export default function HeroSection() {
         <div className="absolute top-1/2 left-20 w-16 h-16 bg-green-500/15 rounded-full blur-sm floating-animation-slow"></div>
         <div className="absolute bottom-40 right-1/3 w-36 h-36 bg-accent/10 rounded-full blur-xl floating-animation"></div>
         <div className="absolute top-12 left-1/3 w-18 h-18 bg-teal-500/20 rounded-full blur-md floating-animation"></div>
-        <div className="absolute top-16 right-1/3 w-22 h-22 bg-accent/18 rounded-full blur-lg floating-animation-delayed"></div>
+        <div className="absolute top-24 left-1/2 w-22 h-22 bg-accent/18 rounded-full blur-lg floating-animation-delayed"></div>
         <div className="absolute top-32 left-2/3 w-14 h-14 bg-green-500/25 rounded-full blur-sm floating-animation-slow"></div>
         <div className="absolute top-8 right-12 w-12 h-12 bg-accent/30 rounded-full blur-xs floating-animation"></div>
       </div>
