@@ -175,51 +175,23 @@ export default function ContactSection() {
                     <Mail className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Email</p>
-                    <p className="text-gray-600">hello@thesocialconcept.com</p>
+                    <p className="font-medium text-gray-900">Danielle</p>
+                    <p className="text-gray-600">danielle@thesocialconcept.co</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-green-500" />
+                  <div className="w-12 h-12 bg-accent/20 rounded-lg flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">Phone</p>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="font-medium text-gray-900">Travis</p>
+                    <p className="text-gray-600">travis@thesocialconcept.co</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-primary">Follow Us</h4>
-              <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
-                >
-                  <Twitter className="w-6 h-6" />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
-                >
-                  <Linkedin className="w-6 h-6" />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
-                >
-                  <Instagram className="w-6 h-6" />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors duration-200 text-gray-600 hover:text-primary"
-                >
-                  <FaTiktok className="w-6 h-6" />
-                </a>
-              </div>
-            </div>
+
 
 
           </motion.div>
