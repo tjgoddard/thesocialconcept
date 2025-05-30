@@ -16,12 +16,21 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const emailSent = await sendContactEmail(contactData);
       const confirmationSent = await sendConfirmationEmail(contactData);
       
-      res.json({ 
-        success: true, 
-        contact,
-        emailSent,
-        confirmationSent
-      });
+      // Consider it successful if the main contact email was sent
+      // Confirmation email failures are acceptable during Postmark approval period
+      if (emailSent) {
+        res.json({ 
+          success: true, 
+          contact,
+          emailSent,
+          confirmationSent
+        });
+      } else {
+        res.status(500).json({ 
+          success: false, 
+          message: "Failed to send contact email. Please try again or contact us directly."
+        });
+      }
     } catch (error) {
       if (error instanceof z.ZodError) {
         res.status(400).json({ success: false, errors: error.errors });
