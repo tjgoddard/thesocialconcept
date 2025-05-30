@@ -53,7 +53,7 @@ This message was sent from The Social Concept website contact form.
     `;
 
     await postmarkClient.sendEmail({
-      From: 'hello@thesocialconcept.com', // You'll need to verify this email in Postmark
+      From: 'danielle@thesocialconcept.co', // You'll need to verify this email in Postmark
       To: 'danielle@thesocialconcept.co', // Where you want to receive contact form emails
       Subject: `New Contact: ${contact.name}`,
       HtmlBody: htmlBody,
@@ -98,7 +98,7 @@ The Social Concept Team
     `;
 
     await postmarkClient.sendEmail({
-      From: 'hello@thesocialconcept.com',
+      From: 'danielle@thesocialconcept.co',
       To: contact.email,
       Subject: 'Thanks for reaching out to The Social Concept',
       HtmlBody: htmlBody,
