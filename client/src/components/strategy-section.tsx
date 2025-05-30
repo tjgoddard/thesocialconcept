@@ -8,7 +8,7 @@ const strategies = [
   {
     icon: Target,
     title: "Strategy & Planning",
-    description: "Growth ecosystem audit to uncover opportunities across paid media and retention channels. Development of a full funnel strategy in alignment with your brand's growth goals.",
+    description: "Audit your channels to uncover opportunities in acquisition and retention channels. Develop a full funnel strategy aligned with your brands goals.",
     details: [
       "Full Program Audit",
       "Audience Segmentation",
@@ -88,14 +88,14 @@ export default function StrategySection() {
               <Card
                 className={`bg-gradient-to-br ${strategy.gradient} text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full`}
               >
-                <CardContent className="p-8">
+                <CardContent className="p-8 flex flex-col h-full">
                   <div className={`w-20 h-20 ${strategy.iconColor} rounded-full flex items-center justify-center mx-auto mb-6`}>
                     <strategy.icon className="w-10 h-10" />
                   </div>
                   <h3 className="text-2xl font-bold text-primary mb-4">
                     {strategy.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed mb-6">
+                  <p className="text-gray-600 leading-relaxed mb-6 flex-grow">
                     {strategy.description}
                   </p>
 
@@ -118,18 +118,20 @@ export default function StrategySection() {
                     </ul>
                   </motion.div>
 
-                  <Button
-                    onClick={() => toggleCard(index)}
-                    variant="ghost"
-                    className={`font-semibold ${strategy.buttonColor} transition-colors`}
-                  >
-                    {expandedCard === index ? "Show Less" : "Learn More"}
-                    {expandedCard === index ? (
-                      <ChevronUp className="w-4 h-4 ml-1" />
-                    ) : (
-                      <ChevronDown className="w-4 h-4 ml-1" />
-                    )}
-                  </Button>
+                  <div className="mt-auto">
+                    <Button
+                      onClick={() => toggleCard(index)}
+                      variant="ghost"
+                      className={`font-semibold ${strategy.buttonColor} transition-colors`}
+                    >
+                      {expandedCard === index ? "Show Less" : "Learn More"}
+                      {expandedCard === index ? (
+                        <ChevronUp className="w-4 h-4 ml-1" />
+                      ) : (
+                        <ChevronDown className="w-4 h-4 ml-1" />
+                      )}
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
