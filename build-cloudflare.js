@@ -14,9 +14,29 @@ exec('npx vite build', (error, stdout, stderr) => {
   
   console.log(stdout);
   
+  // Move files from dist/public to dist root
+  const publicDir = 'dist/public';
+  const outputDir = 'dist';
+  
+  if (fs.existsSync(publicDir)) {
+    // Copy all files from dist/public to dist
+    const files = fs.readdirSync(publicDir);
+    files.forEach(file => {
+      const srcPath = path.join(publicDir, file);
+      const destPath = path.join(outputDir, file);
+      if (fs.existsSync(destPath)) {
+        fs.rmSync(destPath, { recursive: true, force: true });
+      }
+      fs.cpSync(srcPath, destPath, { recursive: true });
+    });
+    
+    // Remove the public directory
+    fs.rmSync(publicDir, { recursive: true, force: true });
+    console.log('Moved client files from dist/public to dist');
+  }
+  
   // Copy functions after successful build
   const functionsDir = 'functions';
-  const outputDir = 'dist';
 
   if (fs.existsSync(functionsDir)) {
     const targetDir = path.join(outputDir, '_functions');
