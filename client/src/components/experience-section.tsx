@@ -2,14 +2,7 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
-const clientLogos = [
-  "BRAND A",
-  "BRAND B", 
-  "BRAND C",
-  "BRAND D",
-  "BRAND E",
-  "BRAND F",
-];
+
 
 const testimonials = [
   {
@@ -46,30 +39,7 @@ export default function ExperienceSection() {
           </p>
         </motion.div>
 
-        {/* Client Logos Grid */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="mb-16"
-        >
-          <h3 className="text-2xl font-semibold text-primary text-center mb-8">
-            Trusted by Industry Leaders
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center opacity-60">
-            {clientLogos.map((logo, index) => (
-              <div
-                key={logo}
-                className="flex items-center justify-center h-16 px-4"
-              >
-                <div className="text-gray-400 font-bold text-lg border-2 border-gray-300 px-4 py-2 rounded">
-                  {logo}
-                </div>
-              </div>
-            ))}
-          </div>
-        </motion.div>
+
 
         {/* Testimonials */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
