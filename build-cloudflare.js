@@ -6,7 +6,7 @@ import path from 'path';
 console.log('Building client...');
 
 // Build the client
-exec('vite build', (error, stdout, stderr) => {
+exec('npx vite build', (error, stdout, stderr) => {
   if (error) {
     console.error('Build failed:', error);
     process.exit(1);

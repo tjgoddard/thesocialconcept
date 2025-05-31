@@ -1,0 +1,58 @@
+2025-05-31T12:04:28.108953Z	Cloning repository...
+2025-05-31T12:04:29.202674Z	From https://github.com/tjgoddard/thesocialconcept
+2025-05-31T12:04:29.20326Z	 * branch            bece98d683f73f065cea7ee03ec6b91e555c2532 -> FETCH_HEAD
+2025-05-31T12:04:29.203376Z	
+2025-05-31T12:04:29.279254Z	HEAD is now at bece98d Add floating dots and remove trusted section
+2025-05-31T12:04:29.279824Z	
+2025-05-31T12:04:29.371099Z	
+2025-05-31T12:04:29.371613Z	Using v2 root directory strategy
+2025-05-31T12:04:29.393954Z	Success: Finished cloning repository files
+2025-05-31T12:04:31.013055Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-05-31T12:04:31.013875Z	
+2025-05-31T12:04:32.115552Z	No wrangler.toml file found. Continuing.
+2025-05-31T12:04:32.967276Z	Preparing yarn@3.6.3 for immediate activation...
+2025-05-31T12:04:33.26413Z	Preparing pnpm@8.7.1 for immediate activation...
+2025-05-31T12:04:33.29186Z	Detected the following tools from environment: nodejs@18.17.1, npm@9.6.7
+2025-05-31T12:04:33.292156Z	Installing project dependencies: npm clean-install --progress=false
+2025-05-31T12:04:34.777383Z	npm WARN EBADENGINE Unsupported engine {
+2025-05-31T12:04:34.777705Z	npm WARN EBADENGINE   package: 'connect-pg-simple@10.0.0',
+2025-05-31T12:04:34.777875Z	npm WARN EBADENGINE   required: { node: '^18.18.0 || ^20.9.0 || >=22.0.0' },
+2025-05-31T12:04:34.778009Z	npm WARN EBADENGINE   current: { node: 'v18.17.1', npm: '9.6.7' }
+2025-05-31T12:04:34.778126Z	npm WARN EBADENGINE }
+2025-05-31T12:04:38.255018Z	npm WARN deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+2025-05-31T12:04:38.255847Z	npm WARN deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+2025-05-31T12:04:43.910634Z	
+2025-05-31T12:04:43.910881Z	added 500 packages, and audited 501 packages in 10s
+2025-05-31T12:04:43.91146Z	
+2025-05-31T12:04:43.911793Z	66 packages are looking for funding
+2025-05-31T12:04:43.911966Z	  run `npm fund` for details
+2025-05-31T12:04:43.950426Z	
+2025-05-31T12:04:43.950683Z	7 moderate severity vulnerabilities
+2025-05-31T12:04:43.950861Z	
+2025-05-31T12:04:43.950991Z	To address issues that do not require attention, run:
+2025-05-31T12:04:43.951103Z	  npm audit fix
+2025-05-31T12:04:43.95125Z	
+2025-05-31T12:04:43.951485Z	To address all issues (including breaking changes), run:
+2025-05-31T12:04:43.951607Z	  npm audit fix --force
+2025-05-31T12:04:43.951843Z	
+2025-05-31T12:04:43.951964Z	Run `npm audit` for details.
+2025-05-31T12:04:43.970551Z	Executing user command: node build-cloudflare.js
+2025-05-31T12:04:44.222577Z	Building client...
+2025-05-31T12:04:44.235095Z	Build failed: Error: Command failed: vite build
+2025-05-31T12:04:44.235362Z	/bin/sh: 1: vite: not found
+2025-05-31T12:04:44.235522Z	npm module executable "vite" is no longer installed globally. You should migrate to using "npx vite [args]" or a package.json script.
+2025-05-31T12:04:44.235639Z	
+2025-05-31T12:04:44.235758Z	    at ChildProcess.exithandler (node:child_process:419:12)
+2025-05-31T12:04:44.235867Z	    at ChildProcess.emit (node:events:514:28)
+2025-05-31T12:04:44.235957Z	    at maybeClose (node:internal/child_process:1091:16)
+2025-05-31T12:04:44.236074Z	    at Socket.<anonymous> (node:internal/child_process:449:11)
+2025-05-31T12:04:44.236273Z	    at Socket.emit (node:events:514:28)
+2025-05-31T12:04:44.236409Z	    at Pipe.<anonymous> (node:net:323:12) {
+2025-05-31T12:04:44.236509Z	  code: 127,
+2025-05-31T12:04:44.236737Z	  killed: false,
+2025-05-31T12:04:44.236979Z	  signal: null,
+2025-05-31T12:04:44.237102Z	  cmd: 'vite build'
+2025-05-31T12:04:44.237209Z	}
+2025-05-31T12:04:44.239961Z	Failed: Error while executing user command. Exited with error code: 1
+2025-05-31T12:04:44.24925Z	Failed: build command exited with code: 1
+2025-05-31T12:04:45.203349Z	Failed: error occurred while running build command
