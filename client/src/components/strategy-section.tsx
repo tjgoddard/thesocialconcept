@@ -8,7 +8,7 @@ const strategies = [
   {
     icon: Target,
     title: "Strategy & Planning",
-    description: "Audit your channels to uncover opportunities in acquisition and retention channels. Develop a full funnel strategy aligned with your brands goals.",
+    description: "Audit your program to uncover opportunities in acquisition and retention channels. Develop a full funnel strategy aligned with your brands goals.",
     details: [
       "Full Program Audit",
       "Audience Segmentation",
@@ -22,7 +22,7 @@ const strategies = [
   {
     icon: Rocket,
     title: "Execution & Management",
-    description: "Platform-specific campaign execution with audience targeting, and ongoing optimization management.",
+    description: "Platform-specific campaign execution with audience targeting and ongoing optimization management.",
     details: [
       "Campaign Setup & Launch",
       "A/B Testing Management",
