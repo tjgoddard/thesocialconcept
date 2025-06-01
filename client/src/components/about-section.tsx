@@ -43,6 +43,7 @@ export default function AboutSection() {
                     Danielle Chmelik
                   </h4>
                   <p className="text-gray-600">Co-Founder & Retention Strategy</p>
+                  <p className="text-sm text-gray-500">5+ Years in Retention Strategy Consulting for 50MM+ Brands</p>
                 </div>
               </div>
 
@@ -57,6 +58,7 @@ export default function AboutSection() {
                     Travis Goddard
                   </h4>
                   <p className="text-gray-600">Co-Founder & Performance Marketing</p>
+                  <p className="text-sm text-gray-500">5+ Years Scaling 100MM+ Ecommerce Brands</p>
                 </div>
               </div>
             </div>
