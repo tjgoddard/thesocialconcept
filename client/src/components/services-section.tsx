@@ -32,14 +32,14 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-24 bg-white">
+    <section id="services" className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-8"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
             Our Services
