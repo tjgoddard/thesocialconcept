@@ -57,7 +57,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
-          >We're a performance marketing agency focused on big ideas, sharp execution, and measurable performance.</motion.p>
+          >We're a full funnel performance marketing agency focused on big ideas, sharp execution, and measurable performance.</motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
