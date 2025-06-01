@@ -58,7 +58,7 @@ export default function AboutSection() {
                     Travis Goddard
                   </h4>
                   <p className="text-gray-600">Co-Founder & Performance Marketing</p>
-                  <p className="text-sm text-gray-500">5+ Years Scaling 100MM+ Ecommerce Brands</p>
+                  <p className="text-sm text-gray-500">5+ Years Scaling a 100MM+ Ecommerce Brand</p>
                 </div>
               </div>
             </div>
