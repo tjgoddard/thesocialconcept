@@ -90,14 +90,17 @@ export default function ServicesSection() {
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Let's discuss how our targeted marketing strategies can drive real results for your business.
           </p>
-          <a
-            href="https://calendly.com/thesocialconcept"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => {
+              const contactSection = document.getElementById('contact');
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
             className="inline-flex items-center px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
             Schedule A Call
-          </a>
+          </button>
         </motion.div>
       </div>
     </section>
