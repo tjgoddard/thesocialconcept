@@ -225,12 +225,7 @@ export default function TikTokPage() {
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">
                 Now, we help brands do the same.
               </p>
-              <Button
-                variant="outline"
-                className="px-8 py-3 text-lg font-semibold rounded-lg border-2 border-accent text-accent hover:bg-accent hover:text-white transition-all duration-300"
-              >
-                See More Results
-              </Button>
+
             </motion.div>
           </div>
         </section>
