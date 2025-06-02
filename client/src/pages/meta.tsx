@@ -133,10 +133,10 @@ export default function MetaPage() {
                   <TrendingUp className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">
-                  Daily Optimization & Scaling
+                  Optimization & Scaling
                 </h3>
                 <p className="text-gray-600 text-center">
-                  We watch the data like hawks. Every ad, audience, and placement is optimized in real time to maximize ROAS and scale what works.
+                  Every ad, audience, and placement is optimized to maximize ROAS, decrease your CPA, and scale what works.
                 </p>
               </motion.div>
             </div>
