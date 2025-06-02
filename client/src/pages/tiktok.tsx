@@ -59,7 +59,7 @@ export default function TikTokPage() {
                 className="flex flex-col sm:flex-row gap-4 justify-center items-center"
               >
                 <Button
-                  onClick={handleEmailContact}
+                  onClick={scrollToContact}
                   className="bg-accent hover:bg-accent/90 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                 >
                   Let's Work Together
