@@ -221,31 +221,7 @@ export default function MetaPage() {
           </div>
         </section>
 
-        {/* Final CTA Section */}
-        <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-center mb-16"
-            >
-              <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
-                Let's Build Your Growth Engine
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-                If Meta ads feel like a money pit, you're doing it wrong. We help you build a system that brings in customers profitably — and predictably.
-              </p>
-              <Button
-                onClick={scrollToContact}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-              >
-                Book a Discovery Call
-              </Button>
-            </motion.div>
-          </div>
-        </section>
+
 
         {/* Contact Form */}
         <ContactSection />
