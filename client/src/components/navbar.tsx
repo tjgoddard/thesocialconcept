@@ -140,7 +140,7 @@ export default function Navbar() {
               variant="ghost"
               size="sm"
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-600 hover:text-accent"
+              className="text-gray-600 hover:text-white hover:bg-accent"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
