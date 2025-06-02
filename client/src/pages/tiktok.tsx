@@ -69,7 +69,7 @@ export default function TikTokPage() {
         </section>
 
         {/* 3-Step Growth System */}
-        <section className="py-24 bg-white">
+        <section className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -95,10 +95,10 @@ export default function TikTokPage() {
                   <Target className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">
-                  Hook-Driven Creative
+                  Creative & Funnel Audit
                 </h3>
                 <p className="text-gray-600 text-center">
-                  We craft short-form video ads that hook fast, earn attention, and convert. Every video is built for thumb-stopping impact.
+                  We start by auditing your current TikTok content, ad creatives, and funnel setup — identifying what's working, what's missing, and where money is being left on the table. You'll get a clear roadmap to optimize performance from top to bottom.
                 </p>
               </motion.div>
 
