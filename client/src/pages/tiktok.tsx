@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import { Mail, Target, TrendingUp, BarChart3 } from "lucide-react";
 import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
 
 export default function TikTokPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact');
     if (contactSection) {
