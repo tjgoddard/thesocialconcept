@@ -118,7 +118,7 @@ export default function MetaPage() {
                   Campaign Buildout & Funnel Design
                 </h3>
                 <p className="text-gray-600 text-center">
-                  We architect your Meta funnel from cold to hot — acquisition, retargeting, and retention — with a media plan tailored to your growth stage.
+                  We architect your Meta funnel from cold to hot - acquisition, retargeting, and retention - with a media plan tailored to your growth stage.
                 </p>
               </motion.div>
 
