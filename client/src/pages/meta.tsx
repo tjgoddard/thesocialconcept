@@ -165,7 +165,7 @@ export default function MetaPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold gradient-text mb-4">3.5B+</div>
+                <div className="text-5xl font-bold gradient-text mb-4">5B+</div>
                 <p className="text-gray-600">Active users across Facebook & Instagram</p>
               </motion.div>
 
