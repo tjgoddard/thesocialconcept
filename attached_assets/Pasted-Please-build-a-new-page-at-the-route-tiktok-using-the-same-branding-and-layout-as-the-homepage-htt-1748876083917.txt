@@ -1,0 +1,58 @@
+Please build a new page at the route /tiktok using the same branding and layout as the homepage (https://thesocialconcept.co/). This includes using Montserrat font, mobile responsiveness, and consistent header/footer styling.
+
+Here’s the content and layout for the TikTok page:
+
+---
+
+1. HERO SECTION
+- Full-screen layout
+- Headline: "Win on TikTok Without Guessing"
+- Subheadline: "We turn scrolls into sales through performance-driven creative and ad strategy built for TikTok’s unique algorithm."
+- CTA Button: "Let’s Work Together" — links to contact section or opens mailto:hello@thesocialconcept.co
+
+---
+
+2. OUR 3-STEP GROWTH SYSTEM (3 COLUMNS OR CARDS)
+- Section headline: "Our Proven TikTok Growth System"
+- Display 3 horizontal cards (stack vertically on mobile):
+  1. **Hook-Driven Creative**  
+     "We craft short-form video ads that hook fast, earn attention, and convert. Every video is built for thumb-stopping impact."
+
+  2. **Full-Funnel Strategy**  
+     "From cold traffic to retention, we build campaigns that guide buyers through the funnel — retargeting, upsells, and LTV optimization included."
+
+  3. **Data-Led Scaling**  
+     "We monitor performance daily, kill what doesn’t work, and scale what does. Decisions come from data, not gut feelings."
+
+---
+
+3. WHY TIKTOK? WHY NOW?
+- Section headline: "Why TikTok? Why Now?"
+- Paragraph: "TikTok isn’t just a platform — it’s where people discover products, trends, and brands they love. If you’re not showing up the right way, you’re invisible. We make sure you’re seen *and* clicked."
+- Include 3 stat blocks:
+  - "150M+" — Users in the U.S.
+  - "4x" — Better CTR than Meta (with the right creative)
+  - "70%" — Say ads blend in with native content*
+- Footnote: "*If they’re done right."
+
+---
+
+4. CLIENT RESULT / PLACEHOLDER
+- Section headline: "Real Results, Real Fast"
+- Example line: "Helped [Brand Name] hit $50K/month from TikTok ads in under 90 days."
+- Optional CTA button: "See More Results" — placeholder for future case studies
+
+---
+
+5. FINAL CTA SECTION
+- Headline: "Ready to Scale on TikTok?"
+- Paragraph: "We don’t do fluff. We do paid strategy that scales. Let’s build your TikTok growth engine."
+- CTA Button: "Book a Discovery Call" — link to contact section or mailto
+
+---
+
+Styling notes:
+- Match layout/padding/margins to homepage
+- Font: Montserrat
+- Keep mobile responsive
+- Backgrounds can be white or subtle gradients (match homepage)
