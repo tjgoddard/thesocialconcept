@@ -145,9 +145,7 @@ export default function SMSPage() {
                   <BarChart3 className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">Analytics & Reporting</h3>
-                <p className="text-gray-600 text-center">
-                  Track performance with detailed metrics on deliverability, engagement, and revenue attribution to optimize your SMS strategy.
-                </p>
+                <p className="text-gray-600 text-center">Track performance with detailed metrics on engagement, opt-out, and revenue to optimize your SMS strategy.</p>
               </motion.div>
             </div>
           </div>
