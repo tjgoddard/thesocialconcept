@@ -108,7 +108,7 @@ export default function EmailPage() {
                 <div className="flex items-center justify-center w-16 h-16 bg-green-500/20 text-green-600 rounded-2xl mb-6 mx-auto">
                   <Mail className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-4 text-center">Planning & Execution</h3>
+                <h3 className="text-2xl font-bold text-primary mb-4 text-center">Crafted Campaigns</h3>
                 <p className="text-gray-600 text-center">We handle your promotional campaigns from subject line to CTA - built for clicks, not just opens.</p>
               </motion.div>
 
