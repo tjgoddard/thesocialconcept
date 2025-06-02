@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import { Mail, Target, TrendingUp, BarChart3 } from "lucide-react";
 import Navbar from "@/components/navbar";
+import ContactSection from "@/components/contact-section";
 import { Button } from "@/components/ui/button";
 
 export default function TikTokPage() {
@@ -230,31 +231,8 @@ export default function TikTokPage() {
           </div>
         </section>
 
-        {/* Final CTA */}
-        <section id="contact" className="py-24 bg-gradient-to-br from-gray-50 to-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-center"
-            >
-              <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
-                Ready to Scale on TikTok?
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-                We don't do fluff. We do paid strategy that scales. Let's build your TikTok growth engine.
-              </p>
-              <Button
-                onClick={handleEmailContact}
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-3 text-lg font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-              >
-                Book a Discovery Call
-              </Button>
-            </motion.div>
-          </div>
-        </section>
+        {/* Contact Form */}
+        <ContactSection />
       </main>
 
       {/* Footer */}
