@@ -117,7 +117,7 @@ export default function TikTokPage() {
                   Full-Funnel Strategy
                 </h3>
                 <p className="text-gray-600 text-center">
-                  From cold traffic to retention, we build campaigns that guide buyers through the funnel - brand awareness, site traffic, and conversion.
+                  From cold traffic to retention, we build campaigns that guide buyers through your marketing funnel.
                 </p>
               </motion.div>
 
