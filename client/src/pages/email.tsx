@@ -41,7 +41,7 @@ export default function EmailPage() {
                 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-primary leading-tight"
               >
                 <span className="block">Retention Starts</span>
-                <span className="block gradient-text">That Prints Money</span>
+                <span className="block gradient-text">In The Inbox</span>
               </motion.h1>
 
               <motion.p
