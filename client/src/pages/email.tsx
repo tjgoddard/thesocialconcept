@@ -40,7 +40,7 @@ export default function EmailPage() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-primary leading-tight"
               >
-                <span className="block">Email Marketing</span>
+                <span className="block">Retention Starts</span>
                 <span className="block gradient-text">That Prints Money</span>
               </motion.h1>
 
@@ -250,7 +250,6 @@ export default function EmailPage() {
         {/* Contact Form */}
         <ContactSection />
       </main>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
