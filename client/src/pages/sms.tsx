@@ -164,9 +164,7 @@ export default function SMSPage() {
               <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
                 SMS Is Your Highest-ROI Channel
               </h2>
-              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">
-                Texts get opened. Fast. With 98% open rates and click-throughs that crush email, SMS is the most direct line to your customer's wallet. When done right, it's not spam — it's smart.
-              </p>
+              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">Texts get opened. Fast. With 98% open rates and amongst the highest clickthrough, SMS is the most direct line to your customer's wallet. When done right, it's not spam - it's smart.</p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
