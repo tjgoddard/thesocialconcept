@@ -212,7 +212,7 @@ export default function MetaPage() {
                 Proof That Converts
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-                I've managed millions in Meta spend across multiple DTC brands — scaling acquisition while holding a tight ROAS. From viral creative to retargeting flows, I've built the backbone of Meta strategies that sell.
+                I've managed millions in Meta spend at a PE owned DTC brand - scaling acquisition while holding tight ROAS numbers.
               </p>
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">
                 We bring that same precision to every client we work with.
