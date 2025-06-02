@@ -49,7 +49,7 @@ export default function SMSPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
-              >We build high-converting SMS flows and campaigns that reach your customers where and when they want your branded campaigns.</motion.p>
+              >We build high-converting SMS flows and campaigns that reach your customers where and when they want it.</motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
