@@ -99,9 +99,7 @@ export default function MetaPage() {
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">
                   Creative Strategy & Testing
                 </h3>
-                <p className="text-gray-600 text-center">
-                  We build ad campaigns from the bottom up by rigorously testing ad creative to find your winners and funneling them into the proper winning campaigns.
-                </p>
+                <p className="text-gray-600 text-center">We build ad campaigns from the bottom up by rigorously testing ad creative to find your winners and funneling them into higher spending campaigns.</p>
               </motion.div>
 
               <motion.div
@@ -156,9 +154,7 @@ export default function MetaPage() {
               <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
                 Meta Is Still the King of Paid Social
               </h2>
-              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">
-                Yes, CPMs have gone up. But Meta still drives the lion's share of DTC revenue when done right. The difference? Strategy, creative, and optimization — not budget.
-              </p>
+              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">Yes, CPMs have gone up. But Meta still drives the lion's share of DTC revenue when done right. The difference? Strategy, creative, and optimization - not budget.</p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
