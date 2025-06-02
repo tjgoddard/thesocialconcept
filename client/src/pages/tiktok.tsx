@@ -217,10 +217,13 @@ export default function TikTokPage() {
               className="text-center"
             >
               <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
-                Real Results, Real Fast
+                Proof That Converts
               </h2>
-              <p className="text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                Helped [Brand Name] hit $50K/month from TikTok ads in under 90 days.
+              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
+                Before launching The Social Concept, I built and scaled the TikTok ads program for a private equity-backed brand. In under two years, we grew it from zero to over $30M in annual net sales — using the exact strategies we offer today.
+              </p>
+              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">
+                Now, we help brands do the same.
               </p>
               <Button
                 variant="outline"
