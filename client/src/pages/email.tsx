@@ -139,9 +139,7 @@ export default function EmailPage() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
-                Your Most Profitable Channel Is Your Inbox
-              </h2>
+              <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">Unlock The Power of Your Inbox</h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">Email isn't dead - bad email is. Done right, it increases brand affinity & customer LTV.</p>
             </motion.div>
 
