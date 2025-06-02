@@ -162,7 +162,7 @@ export default function EmailPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold gradient-text mb-4">25–40%</div>
+                <div className="text-5xl font-bold gradient-text mb-4">25–30%</div>
                 <p className="text-gray-600">Of total DTC revenue = email</p>
               </motion.div>
 
