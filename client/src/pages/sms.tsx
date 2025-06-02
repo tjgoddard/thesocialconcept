@@ -176,7 +176,7 @@ export default function SMSPage() {
                 className="text-center"
               >
                 <div className="text-5xl font-bold gradient-text mb-4">100%</div>
-                <p className="text-gray-600">Open rate</p>
+                <p className="text-gray-600">Conversion Rate</p>
               </motion.div>
 
               <motion.div
