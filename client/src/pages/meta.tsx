@@ -115,7 +115,7 @@ export default function MetaPage() {
                   <Layers className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">
-                  Campaign Buildout & Funnel Design
+                  Funnel Design
                 </h3>
                 <p className="text-gray-600 text-center">
                   We architect your Meta funnel from cold to hot - acquisition, retargeting, and retention - with a media plan tailored to your growth stage.
