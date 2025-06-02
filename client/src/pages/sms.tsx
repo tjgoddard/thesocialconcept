@@ -83,7 +83,7 @@ export default function SMSPage() {
               </h2>
             </motion.div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -131,6 +131,22 @@ export default function SMSPage() {
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">Strategy & Execution</h3>
                 <p className="text-gray-600 text-center">
                   We create and schedule promotional sends that drive urgency, boost AOV, and play well with your email and paid media.
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                viewport={{ once: true }}
+                className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl"
+              >
+                <div className="flex items-center justify-center w-16 h-16 bg-blue-200 text-blue-600 rounded-2xl mb-6 mx-auto">
+                  <BarChart3 className="w-8 h-8" />
+                </div>
+                <h3 className="text-2xl font-bold text-primary mb-4 text-center">Analytics & Reporting</h3>
+                <p className="text-gray-600 text-center">
+                  Track performance with detailed metrics on deliverability, engagement, and revenue attribution to optimize your SMS strategy.
                 </p>
               </motion.div>
             </div>
