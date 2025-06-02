@@ -175,7 +175,7 @@ export default function SMSPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold gradient-text mb-4">100%</div>
+                <div className="text-5xl font-bold gradient-text mb-4">20% Increase</div>
                 <p className="text-gray-600">Conversion Rate</p>
               </motion.div>
 
