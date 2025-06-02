@@ -217,7 +217,7 @@ export default function SMSPage() {
               <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
                 Proof That Converts
               </h2>
-              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">I've built full-funnel retention systems — including SMS — for a DTC brands doing 8 figures in revenue. The result? Millions in attributable revenue from our SMS journeys and campaigns.</p>
+              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">I've built full-funnel retention systems - including SMS - for a DTC brands doing 8 figures in revenue. The result? Millions in attributable revenue from our SMS journeys and campaigns.</p>
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">Now, we help brands build the same engine.</p>
             </motion.div>
           </div>
