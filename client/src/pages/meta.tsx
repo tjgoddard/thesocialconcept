@@ -211,9 +211,7 @@ export default function MetaPage() {
               <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-8">
                 Proof That Converts
               </h2>
-              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-                I've managed millions in Meta spend at a PE owned DTC brand - scaling acquisition while holding tight ROAS numbers.
-              </p>
+              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">I've managed millions in Meta spend at a PE owned DTC brand - scaling acquisition while holding tight ROAS & CAC numbers.</p>
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">
                 We bring that same precision to every client we work with.
               </p>
@@ -226,7 +224,6 @@ export default function MetaPage() {
         {/* Contact Form */}
         <ContactSection />
       </main>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
