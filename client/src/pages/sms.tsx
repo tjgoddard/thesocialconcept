@@ -97,9 +97,7 @@ export default function SMSPage() {
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">
                   List Growth & Compliance
                 </h3>
-                <p className="text-gray-600 text-center">
-                  We help you grow your SMS list the right way — opt-ins, popups, and segmentation — all compliant and ready to scale.
-                </p>
+                <p className="text-gray-600 text-center">We help you grow your SMS list the right way - sign-up units and A/B testing - all compliant and ready to scale.</p>
               </motion.div>
 
               <motion.div
