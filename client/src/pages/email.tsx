@@ -95,9 +95,7 @@ export default function EmailPage() {
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">
                   Automated Flows
                 </h3>
-                <p className="text-gray-600 text-center">
-                  Welcome, post-purchase, abandoned cart, winbacks — we design and optimize flows that drive revenue on autopilot.
-                </p>
+                <p className="text-gray-600 text-center">Welcome, post-purchase, abandoned cart, winbacks - we design and optimize flows that drive revenue on autopilot.</p>
               </motion.div>
 
               <motion.div
