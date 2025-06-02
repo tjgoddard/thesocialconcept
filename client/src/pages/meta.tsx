@@ -191,8 +191,8 @@ export default function MetaPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold gradient-text mb-4">$5–$15</div>
-                <p className="text-gray-600">Average CPA when optimized</p>
+                <div className="text-5xl font-bold gradient-text mb-4">20-30%</div>
+                <p className="text-gray-600">Increase in ROAS when Optimized</p>
               </motion.div>
             </div>
           </div>
