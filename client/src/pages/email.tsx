@@ -198,9 +198,8 @@ export default function EmailPage() {
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
                 Before launching The Social Concept, I led retention at a DTC brand doing 9 figures — designing lifecycle strategies that drove millions in email-attributed revenue.
               </p>
-              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">
-                We bring that same playbook to every brand we work with.
-              </p>
+              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">Now, we help brands do the same.
+</p>
             </motion.div>
           </div>
         </section>
