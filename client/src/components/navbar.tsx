@@ -27,9 +27,8 @@ export default function Navbar() {
   };
 
   const navLinks = [
-    { label: "About", href: "about" },
-    { label: "Strategy", href: "strategy" },
-    { label: "Experience", href: "experience" },
+    { label: "About Us", href: "about" },
+    { label: "Our Approach", href: "strategy" },
     { label: "Contact", href: "contact" },
   ];
 
@@ -102,7 +101,15 @@ export default function Navbar() {
                 )}
               </div>
 
-
+              {navLinks.map((link) => (
+                <button
+                  key={link.href}
+                  onClick={() => scrollToSection(link.href)}
+                  className="text-gray-600 hover:text-accent px-3 py-2 text-sm font-medium transition-colors duration-200"
+                >
+                  {link.label}
+                </button>
+              ))}
             </div>
           </div>
 
