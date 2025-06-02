@@ -15,7 +15,7 @@ export default function Home() {
         <ServicesSection />
         <AboutSection />
         <StrategySection />
-        <ExperienceSection />
+        {/* <ExperienceSection /> */}
         <ContactSection />
       </main>
       <footer className="bg-gray-900 text-gray-400 py-12">
