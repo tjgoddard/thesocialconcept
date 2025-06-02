@@ -78,9 +78,7 @@ export default function EmailPage() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
-                Email That Works While You Sleep
-              </h2>
+              <h2 className="text-4xl sm:text-5xl font-bold text-primary mb-6">Email That Drives LTV</h2>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
