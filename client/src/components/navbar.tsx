@@ -79,7 +79,7 @@ export default function Navbar() {
                 </button>
                 
                 {servicesDropdownOpen && (
-                  <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-md shadow-lg border border-gray-100 py-2 z-50">
+                  <div className="absolute top-full left-0 mt-0 w-48 bg-white rounded-md shadow-lg border border-gray-100 py-2 z-50">
                     {serviceLinks.map((service) => (
                       service.isExternal ? (
                         <Link key={service.label} href={service.href}>
