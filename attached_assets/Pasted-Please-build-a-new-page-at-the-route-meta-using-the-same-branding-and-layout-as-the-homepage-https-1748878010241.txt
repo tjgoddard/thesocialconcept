@@ -1,0 +1,57 @@
+Please build a new page at the route /meta using the same branding and layout as the homepage (https://thesocialconcept.co/). This includes Montserrat font, mobile responsiveness, and consistent header/footer.
+
+Here’s the content and structure for the Meta Ads page:
+
+---
+
+1. HERO SECTION
+- Full-screen hero block
+- Headline: "Meta Ads That Actually Convert"
+- Subheadline: "We run full-funnel Meta campaigns that combine tested creative, precise targeting, and relentless optimization — so every dollar works harder."
+- CTA Button: "Let’s Talk Ads" — link to contact section or mailto:hello@thesocialconcept.co
+
+---
+
+2. THE SYSTEM THAT SCALES (3 COLUMNS OR CARDS)
+- Section headline: "The System That Scales"
+- Display 3 service cards (stack vertically on mobile):
+  1. **Creative Strategy & Testing**  
+     "We build ad creatives designed to stop scrolls, spark emotion, and drive conversions — then rigorously test them to find your winners."
+
+  2. **Campaign Buildout & Funnel Design**  
+     "We architect your Meta funnel from cold to hot — acquisition, retargeting, and retention — with a media plan tailored to your growth stage."
+
+  3. **Daily Optimization & Scaling**  
+     "We watch the data like hawks. Every ad, audience, and placement is optimized in real time to maximize ROAS and scale what works."
+
+---
+
+3. WHY META STILL WINS
+- Section headline: "Meta Is Still the King of Paid Social"
+- Paragraph: "Yes, CPMs have gone up. But Meta still drives the lion’s share of DTC revenue when done right. The difference? Strategy, creative, and optimization — not budget."
+- Include 3 stat blocks:
+  - "3.5B+" — Active users across Facebook & Instagram
+  - "60–80%" — Of DTC ad budgets still go to Meta
+  - "$5–$15" — Average CPA when optimized
+
+---
+
+4. PROOF THAT CONVERTS
+- Section headline: "Proof That Converts"
+- Paragraph: "I’ve managed millions in Meta spend across multiple DTC brands — scaling acquisition while holding a tight ROAS. From viral creative to retargeting flows, I’ve built the backbone of Meta strategies that sell."
+- Closing line: "We bring that same precision to every client we work with."
+
+---
+
+5. FINAL CTA SECTION
+- Section headline: "Let’s Build Your Growth Engine"
+- Paragraph: "If Meta ads feel like a money pit, you’re doing it wrong. We help you build a system that brings in customers profitably — and predictably."
+- CTA Button: "Book a Discovery Call" — link to contact or mailto
+
+---
+
+Styling notes:
+- Match homepage layout and font (Montserrat)
+- Fully mobile responsive
+- Use same color palette and spacing
+- Light or gradient background like homepage

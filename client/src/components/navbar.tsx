@@ -37,7 +37,7 @@ export default function Navbar() {
     { label: "Email Marketing", href: "/email", isExternal: true },
     { label: "SMS Marketing", href: "/sms", isExternal: true },
     { label: "TikTok Advertising", href: "/tiktok", isExternal: true },
-    { label: "Meta Advertising", href: "services", isExternal: false },
+    { label: "Meta Advertising", href: "/meta", isExternal: true },
   ];
 
   return (

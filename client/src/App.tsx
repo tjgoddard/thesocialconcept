@@ -7,6 +7,7 @@ import Home from "@/pages/home";
 import TikTokPage from "@/pages/tiktok";
 import SMSPage from "@/pages/sms";
 import EmailPage from "@/pages/email";
+import MetaPage from "@/pages/meta";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/tiktok" component={TikTokPage} />
       <Route path="/sms" component={SMSPage} />
       <Route path="/email" component={EmailPage} />
+      <Route path="/meta" component={MetaPage} />
       <Route component={NotFound} />
     </Switch>
   );
