@@ -1,0 +1,57 @@
+Please build a new page at the route /email using the same branding and layout as the homepage (https://thesocialconcept.co/). This includes Montserrat font, mobile responsiveness, and consistent header/footer.
+
+Here’s the content and structure for the Email Marketing page:
+
+---
+
+1. HERO SECTION
+- Full-screen hero block
+- Headline: "Email Marketing That Prints Money"
+- Subheadline: "We build and manage high-performing email flows and campaigns that keep customers coming back — and turn your list into your #1 sales channel."
+- CTA Button: "Let’s Talk Email" — link to contact section or mailto:hello@thesocialconcept.co
+
+---
+
+2. WHAT WE DO (3 COLUMNS OR CARDS)
+- Section headline: "Email That Works While You Sleep"
+- Display 3 service cards (stack vertically on mobile):
+  1. **Automated Flows**  
+     "Welcome, post-purchase, abandoned cart, winbacks — we design and optimize flows that drive revenue on autopilot."
+
+  2. **Campaign Planning & Execution**  
+     "We handle your weekly and promotional campaigns from subject line to CTA — built for clicks, not just opens."
+
+  3. **Design, Copy, & Strategy**  
+     "No more Canva emails. We bring clean, branded design and copy that converts — backed by testing and data."
+
+---
+
+3. WHY EMAIL STILL WINS
+- Section headline: "Your Most Profitable Channel Is Your Inbox"
+- Paragraph: "Email isn't dead — bad email is. Done right, it generates 25–40% of a DTC brand’s revenue. It’s your only owned channel, and your best long-term asset."
+- Include 3 stat blocks:
+  - "90%" — Of consumers check email daily
+  - "25–40%" — Of total DTC revenue = email
+  - "$36" — Average ROI per $1 spent
+
+---
+
+4. PROOF THAT CONVERTS
+- Section headline: "Proof That Converts"
+- Paragraph: "Before launching The Social Concept, I led retention at a DTC brand doing 9 figures — designing lifecycle strategies that drove millions in email-attributed revenue."
+- Closing line: "We bring that same playbook to every brand we work with."
+
+---
+
+5. FINAL CTA SECTION
+- Section headline: "Let’s Make Your List Work Harder"
+- Paragraph: "Whether you’re just getting started or looking to scale, we turn your email program into a machine — one that prints money while you focus on growth."
+- CTA Button: "Book a Discovery Call" — link to contact or mailto
+
+---
+
+Styling notes:
+- Match homepage spacing, layout, and font style
+- Font: Montserrat
+- Fully mobile responsive
+- Light background or subtle gradient similar to homepage
