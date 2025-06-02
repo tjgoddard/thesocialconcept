@@ -127,9 +127,7 @@ export default function EmailPage() {
                   <PenTool className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-primary mb-4 text-center">Data Backed Insights</h3>
-                <p className="text-gray-600 text-center">
-                  No more Canva emails. We bring clean, branded design and copy that converts — backed by testing and data.
-                </p>
+                <p className="text-gray-600 text-center">We track every click, open, and dollar earned - then optimize your flows and campaigns based on real performance data.</p>
               </motion.div>
             </div>
           </div>
