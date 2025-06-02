@@ -100,7 +100,7 @@ export default function MetaPage() {
                   Creative Strategy & Testing
                 </h3>
                 <p className="text-gray-600 text-center">
-                  We build ad creatives designed to stop scrolls, spark emotion, and drive conversions — then rigorously test them to find your winners.
+                  We build ad campaigns from the bottom up by rigorously testing ad creative to find your winners and funneling them into the proper winning campaigns.
                 </p>
               </motion.div>
 
