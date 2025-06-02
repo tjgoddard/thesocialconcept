@@ -50,7 +50,7 @@ export default function MetaPage() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
               >
-                We run full-funnel Meta campaigns that combine tested creative, precise targeting, and relentless optimization — so every dollar works harder.
+                We run full-funnel Meta campaigns that combine creative testing, precise targeting and optimization - so every dollar works harder.
               </motion.p>
 
               <motion.div
