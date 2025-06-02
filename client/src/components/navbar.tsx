@@ -102,15 +102,7 @@ export default function Navbar() {
                 )}
               </div>
 
-              {navLinks.map((link) => (
-                <button
-                  key={link.href}
-                  onClick={() => scrollToSection(link.href)}
-                  className="text-gray-600 hover:text-accent px-3 py-2 text-sm font-medium transition-colors duration-200"
-                >
-                  {link.label}
-                </button>
-              ))}
+
             </div>
           </div>
 
