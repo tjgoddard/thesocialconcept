@@ -49,9 +49,7 @@ export default function EmailPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
-              >
-                We build and manage high-performing email flows and campaigns that keep customers coming back — and turn your list into your #1 sales channel.
-              </motion.p>
+              >From automated flows to weekly campaigns, we turn your email list into a full-funnel revenue operating system.</motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
