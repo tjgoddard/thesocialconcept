@@ -35,7 +35,7 @@ export default function Navbar() {
 
   const serviceLinks = [
     { label: "Email Marketing", href: "services", isExternal: false },
-    { label: "SMS Marketing", href: "services", isExternal: false },
+    { label: "SMS Marketing", href: "/sms", isExternal: true },
     { label: "TikTok Advertising", href: "/tiktok", isExternal: true },
     { label: "Meta Advertising", href: "services", isExternal: false },
   ];

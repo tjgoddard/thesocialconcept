@@ -1,0 +1,57 @@
+Please build a new page at the route /sms using the same branding and layout as the homepage (https://thesocialconcept.co/). This includes using Montserrat font, responsive layout, and consistent header/footer.
+
+Here’s the content and layout for the SMS page:
+
+---
+
+1. HERO SECTION
+- Full-screen hero section
+- Headline: "Turn Texts Into Revenue"
+- Subheadline: "We build high-converting SMS flows and campaigns that reach your customers instantly — and drive sales while you sleep."
+- CTA Button: "Let’s Talk SMS" — link to contact section or mailto:hello@thesocialconcept.co
+
+---
+
+2. OUR APPROACH TO SMS (3 COLUMNS OR CARDS)
+- Section headline: "Our Approach to SMS"
+- Display 3 service cards (stack vertically on mobile):
+  1. **List Growth & Compliance**  
+     "We help you grow your SMS list the right way — opt-ins, popups, and segmentation — all compliant and ready to scale."
+
+  2. **Automated Flows**  
+     "From welcome series to abandoned carts, we build flows that run 24/7 and drive purchases on autopilot."
+
+  3. **Campaign Strategy & Execution**  
+     "We create and schedule promotional sends that drive urgency, boost AOV, and play well with your email and paid media."
+
+---
+
+3. WHY SMS WORKS
+- Section headline: "SMS Is Your Highest-ROI Channel"
+- Paragraph: "Texts get opened. Fast. With 98% open rates and click-throughs that crush email, SMS is the most direct line to your customer’s wallet. When done right, it’s not spam — it’s smart."
+- Include 3 stat blocks:
+  - "98%" — Open rate
+  - "25–35%" — CTR on flows
+  - "5x–10x" — ROI for DTC brands
+
+---
+
+4. PROOF THAT CONVERTS
+- Section headline: "Proof That Converts"
+- Paragraph: "Before launching The Social Concept, I built full-funnel retention systems — including SMS — for a DTC brand doing 9 figures in revenue. The result? Millions in trackable revenue from automated messages alone."
+- Closing line: "Now, we help brands build that same engine."
+
+---
+
+5. FINAL CTA SECTION
+- Section headline: "Ready to Text Like a Brand That Wins?"
+- Paragraph: "If you’re not using SMS, you’re leaving money on the table. If you are — but not seeing results — let’s fix it. Either way, we’ve got you."
+- CTA Button: "Book a Discovery Call" — link to contact or mailto
+
+---
+
+Styling notes:
+- Match homepage padding, margin, and font styles
+- Font: Montserrat
+- Fully mobile responsive
+- Light background or soft gradient similar to homepage

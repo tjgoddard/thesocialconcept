@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import TikTokPage from "@/pages/tiktok";
+import SMSPage from "@/pages/sms";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -12,6 +13,7 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/tiktok" component={TikTokPage} />
+      <Route path="/sms" component={SMSPage} />
       <Route component={NotFound} />
     </Switch>
   );
