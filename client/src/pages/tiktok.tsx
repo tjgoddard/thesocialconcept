@@ -156,7 +156,7 @@ export default function TikTokPage() {
                 Why TikTok? Why Now?
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12">
-                TikTok isn't just a platform — it's where people discover products, trends, and brands they love. If you're not showing up the right way, you're invisible. We make sure you're seen <em>and</em> clicked.
+                TikTok isn't just a platform - it's where people discover products, trends, and brands they love. If you're not showing up the right way, you're invisible. We make sure you're seen <em>and</em> clicked.
               </p>
             </motion.div>
 
