@@ -98,7 +98,7 @@ export default function TikTokPage() {
                   Creative & Funnel Audit
                 </h3>
                 <p className="text-gray-600 text-center">
-                  We start by auditing your current TikTok content, ad creatives, and funnel setup — identifying what's working, what's missing, and where money is being left on the table. You'll get a clear roadmap to optimize performance from top to bottom.
+                  We audit your TikTok ads, content, and funnel to uncover what's working, what's missing, and where you're leaving money on the table.
                 </p>
               </motion.div>
 
