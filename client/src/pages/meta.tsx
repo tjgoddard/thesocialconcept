@@ -212,9 +212,8 @@ export default function MetaPage() {
                 Proof That Converts
               </h2>
               <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">I've managed millions in Meta spend at a PE owned DTC brand - scaling acquisition while holding tight ROAS & CAC numbers.</p>
-              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">
-                We bring that same precision to every client we work with.
-              </p>
+              <p className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed font-semibold">Now, we help brands do the same.
+</p>
             </motion.div>
           </div>
         </section>
