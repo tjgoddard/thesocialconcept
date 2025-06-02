@@ -49,9 +49,7 @@ export default function SMSPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-xl sm:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed"
-              >
-                We build high-converting SMS flows and campaigns that reach your customers instantly — and drive sales while you sleep.
-              </motion.p>
+              >We build high-converting SMS flows and campaigns that reach your customers where and when they want your branded campaigns.</motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -250,7 +248,6 @@ export default function SMSPage() {
         {/* Contact Form */}
         <ContactSection />
       </main>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
