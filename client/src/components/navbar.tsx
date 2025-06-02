@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import logoImage from "@assets/image.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(window.scrollY > 50);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  const [location, setLocation] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,6 +25,20 @@ export default function Navbar() {
       element.scrollIntoView({ behavior: "smooth" });
       setIsOpen(false);
     }
+  };
+
+  const navigateToHomeSection = (sectionId: string) => {
+    if (location === "/") {
+      // Already on homepage, just scroll
+      scrollToSection(sectionId);
+    } else {
+      // Navigate to homepage first, then scroll after a brief delay
+      setLocation("/");
+      setTimeout(() => {
+        scrollToSection(sectionId);
+      }, 100);
+    }
+    setIsOpen(false);
   };
 
   const navLinks = [
@@ -104,7 +119,13 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <button
                   key={link.href}
-                  onClick={() => scrollToSection(link.href)}
+                  onClick={() => {
+                    if (link.href === "about" || link.href === "strategy") {
+                      navigateToHomeSection(link.href);
+                    } else {
+                      scrollToSection(link.href);
+                    }
+                  }}
                   className="text-gray-600 hover:text-accent px-3 py-2 text-sm font-medium transition-colors duration-200"
                 >
                   {link.label}
@@ -165,7 +186,13 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <button
                   key={link.href}
-                  onClick={() => scrollToSection(link.href)}
+                  onClick={() => {
+                    if (link.href === "about" || link.href === "strategy") {
+                      navigateToHomeSection(link.href);
+                    } else {
+                      scrollToSection(link.href);
+                    }
+                  }}
                   className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-accent transition-colors duration-200 w-full text-left"
                 >
                   {link.label}
