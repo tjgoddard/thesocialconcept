@@ -48,7 +48,7 @@ export default function PricingPage() {
               >
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-primary mb-4">Growth Partner</h3>
-                  <div className="text-4xl font-bold text-gray-900 mb-2">$3,000</div>
+                  <div className="text-4xl font-bold text-gray-900 mb-2">$3,000*</div>
                   <p className="text-gray-600">per month + 10% of ad spend</p>
                 </div>
                 
@@ -97,7 +97,7 @@ export default function PricingPage() {
                 
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold mb-4">Scale Partner</h3>
-                  <div className="text-4xl font-bold mb-2">$5,000</div>
+                  <div className="text-4xl font-bold mb-2">$5,000*</div>
                   <p className="text-white/90">per month + 10% of ad spend</p>
                 </div>
                 
@@ -150,7 +150,7 @@ export default function PricingPage() {
               >
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-primary mb-4">Enterprise Partner</h3>
-                  <div className="text-4xl font-bold text-gray-900 mb-2">Custom</div>
+                  <div className="text-4xl font-bold text-gray-900 mb-2">Custom*</div>
                   <p className="text-gray-600">tailored to your needs</p>
                 </div>
                 
@@ -193,6 +193,15 @@ export default function PricingPage() {
                 </Button>
               </motion.div>
             </div>
+          </div>
+        </section>
+
+        {/* Pricing Disclaimer */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p className="text-sm text-gray-500">
+              *Pricing depends on scope of services, ad spend requirements, number of channels, and specific business needs. Final pricing determined during consultation.
+            </p>
           </div>
         </section>
 

@@ -51,7 +51,7 @@ export default function EmailSMSPricingPage() {
               >
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-primary mb-4">Single Channel</h3>
-                  <div className="text-4xl font-bold text-gray-900 mb-2">Starting at $2,000</div>
+                  <div className="text-4xl font-bold text-gray-900 mb-2">Starting at $2,000*</div>
                   <p className="text-gray-600">per month (Email OR SMS)</p>
                 </div>
                 
@@ -108,7 +108,7 @@ export default function EmailSMSPricingPage() {
                 
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold mb-4">Both Channels</h3>
-                  <div className="text-4xl font-bold mb-2">Starting at $3,500</div>
+                  <div className="text-4xl font-bold mb-2">Starting at $3,500*</div>
                   <p className="text-white/90">per month (Email + SMS)</p>
                 </div>
                 
@@ -234,7 +234,14 @@ export default function EmailSMSPricingPage() {
           </div>
         </section>
 
-
+        {/* Pricing Disclaimer */}
+        <section className="py-12 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p className="text-sm text-gray-500">
+              *Pricing depends on scope of services, list size, platform requirements, and specific business needs. Final pricing determined during consultation.
+            </p>
+          </div>
+        </section>
 
         {/* FAQ Section */}
         <section className="py-24 bg-gray-50">
