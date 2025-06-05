@@ -51,7 +51,7 @@ export default function EmailSMSPricingPage() {
               >
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-primary mb-4">Single Channel</h3>
-                  <div className="text-4xl font-bold text-gray-900 mb-2">$2,000</div>
+                  <div className="text-4xl font-bold text-gray-900 mb-2">Starting at $2,000</div>
                   <p className="text-gray-600">per month (Email OR SMS)</p>
                 </div>
                 
@@ -70,15 +70,15 @@ export default function EmailSMSPricingPage() {
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Bi-weekly strategy calls</span>
-                  </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">Campaign management & optimization</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">A/B testing & performance tracking</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
+                    <span className="text-gray-700">Priority support & dedicated Slack channel</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
@@ -108,7 +108,7 @@ export default function EmailSMSPricingPage() {
                 
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold mb-4">Both Channels</h3>
-                  <div className="text-4xl font-bold mb-2">$3,500</div>
+                  <div className="text-4xl font-bold mb-2">Starting at $3,500</div>
                   <p className="text-white/90">per month (Email + SMS)</p>
                 </div>
                 
