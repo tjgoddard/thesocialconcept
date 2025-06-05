@@ -15,7 +15,6 @@ export default function EmailSMSPricingPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
       <main>
         {/* Hero Section */}
         <section className="pt-24 pb-12 bg-gradient-to-br from-primary via-primary to-accent">
@@ -107,7 +106,7 @@ export default function EmailSMSPricingPage() {
                 </div>
                 
                 <div className="text-center mb-8">
-                  <h3 className="text-2xl font-bold mb-4">Both Channels</h3>
+                  <h3 className="text-2xl font-bold mb-4">Email + SMS</h3>
                   <div className="text-4xl font-bold mb-2">Starting at $3,500*</div>
                   <p className="text-white/90">per month (Email + SMS)</p>
                 </div>
@@ -133,10 +132,7 @@ export default function EmailSMSPricingPage() {
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-white/90">Priority support & dedicated Slack channel</span>
                   </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-white/90">Advanced analytics & attribution</span>
-                  </li>
+                  
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-white/90">Bi-weekly performance reports</span>
@@ -316,7 +312,6 @@ export default function EmailSMSPricingPage() {
         {/* Contact Form */}
         <ContactSection />
       </main>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
