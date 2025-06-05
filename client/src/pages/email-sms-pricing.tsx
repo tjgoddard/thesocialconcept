@@ -298,9 +298,7 @@ export default function EmailSMSPricingPage() {
                 className="border-b border-gray-200 pb-8"
               >
                 <h3 className="text-xl font-bold text-primary mb-4">How quickly will I see results?</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Most clients see immediate improvements in open rates and click-through rates within the first 2 weeks. Revenue impact typically becomes significant within 30-60 days as our automations take effect.
-                </p>
+                <p className="text-gray-600 leading-relaxed">Most clients see immediate improvements in open rates and click-through rates within the first 4 weeks. Revenue impact typically becomes significant within 30-60 days.</p>
               </motion.div>
 
               <motion.div
