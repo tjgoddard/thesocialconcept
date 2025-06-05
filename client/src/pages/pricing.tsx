@@ -25,9 +25,7 @@ export default function PricingPage() {
               transition={{ duration: 0.8 }}
               className="text-center text-white"
             >
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
-                Investment Plans
-              </h1>
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">Pricing</h1>
               <p className="text-xl sm:text-2xl text-white/90 max-w-4xl mx-auto leading-relaxed mb-8">
                 Choose the partnership level that fits your growth goals. Every plan includes our proven strategy framework and dedicated account management.
               </p>
