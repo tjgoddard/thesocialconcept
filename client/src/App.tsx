@@ -20,7 +20,7 @@ function Router() {
       <Route path="/sms" component={SMSPage} />
       <Route path="/email" component={EmailPage} />
       <Route path="/meta" component={MetaPage} />
-      <Route path="/pricing" component={PricingPage} />
+      <Route path="/paid-media-pricing" component={PricingPage} />
       <Route path="/email-sms-pricing" component={EmailSMSPricingPage} />
       <Route component={NotFound} />
     </Switch>
