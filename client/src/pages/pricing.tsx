@@ -339,9 +339,7 @@ export default function PricingPage() {
                 viewport={{ once: true }}
               >
                 <h3 className="text-xl font-bold text-primary mb-4">What's the minimum commitment?</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  We require a minimum 6-month partnership to ensure we have enough time to implement our strategy and deliver meaningful results. Real growth takes time and consistent optimization.
-                </p>
+                <p className="text-gray-600 leading-relaxed">We require a minimum 3-month partnership to ensure we have enough time to implement our strategy and deliver meaningful results. Real growth takes time and consistent optimization.</p>
               </motion.div>
             </div>
           </div>
