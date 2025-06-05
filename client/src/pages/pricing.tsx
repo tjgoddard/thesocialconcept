@@ -252,9 +252,7 @@ export default function PricingPage() {
                 <div className="flex items-center justify-center w-16 h-16 bg-green-500/20 text-green-600 rounded-2xl mb-6 mx-auto">
                   <TrendingUp className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-4">
-                  Performance Obsessed
-                </h3>
+                <h3 className="text-2xl font-bold text-primary mb-4">Performance</h3>
                 <p className="text-gray-600">
                   We monitor, test, and optimize daily. Every decision is backed by data, and every dollar is accounted for with full transparency.
                 </p>
