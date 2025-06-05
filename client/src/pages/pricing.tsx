@@ -316,9 +316,7 @@ export default function PricingPage() {
                 className="border-b border-gray-200 pb-8"
               >
                 <h3 className="text-xl font-bold text-primary mb-4">What makes your approach different?</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  We focus on full-funnel strategy, not just ad management. Our team has scaled brands from startup to 8-figures, and we bring that enterprise-level experience to every partnership.
-                </p>
+                <p className="text-gray-600 leading-relaxed">We focus on full-funnel strategy, not just ad management, including creative reporting & insights to optimize your ad campaigns.</p>
               </motion.div>
 
               <motion.div
