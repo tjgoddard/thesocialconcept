@@ -65,10 +65,7 @@ export default function PricingPage() {
                     <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">Weekly strategy calls</span>
                   </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Email & SMS setup</span>
-                  </li>
+                  
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">Monthly performance reports</span>
@@ -108,7 +105,7 @@ export default function PricingPage() {
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-white/90">Full-channel marketing (TikTok, Meta, Email, SMS)</span>
+                    <span className="text-white/90">Full-channel marketing (TikTok, Meta)</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
