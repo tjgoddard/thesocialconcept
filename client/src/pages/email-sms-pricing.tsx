@@ -114,7 +114,23 @@ export default function EmailSMSPricingPage() {
                 <ul className="space-y-4 mb-8">
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-white/90">Full Email + SMS management</span>
+                    <span className="text-white/90">Complete platform setup & migration</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
+                    <span className="text-white/90">Custom flow & automation creation</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
+                    <span className="text-white/90">Campaign management & optimization</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
+                    <span className="text-white/90">A/B testing & performance tracking</span>
+                  </li>
+                  <li className="flex items-start">
+                    <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
+                    <span className="text-white/90">Priority support & dedicated Slack channel</span>
                   </li>
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
@@ -128,11 +144,6 @@ export default function EmailSMSPricingPage() {
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-white/90">Weekly strategy calls</span>
                   </li>
-                  <li className="flex items-start">
-                    <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span className="text-white/90">Priority support & dedicated Slack channel</span>
-                  </li>
-                  
                   <li className="flex items-start">
                     <Check className="w-5 h-5 text-white mr-3 mt-0.5 flex-shrink-0" />
                     <span className="text-white/90">Bi-weekly performance reports</span>
