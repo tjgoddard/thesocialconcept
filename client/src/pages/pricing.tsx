@@ -95,7 +95,7 @@ export default function PricingPage() {
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold mb-4">Scale Partner</h3>
                   <div className="text-4xl font-bold mb-2">$5,000</div>
-                  <p className="text-white/90">per month + 12% of ad spend</p>
+                  <p className="text-white/90">per month + 10% of ad spend</p>
                 </div>
                 
                 <ul className="space-y-4 mb-8">
