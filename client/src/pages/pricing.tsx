@@ -15,7 +15,6 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
       <main>
         {/* Hero Section */}
         <section className="pt-24 pb-12 bg-gradient-to-br from-primary via-primary to-accent">
@@ -52,7 +51,7 @@ export default function PricingPage() {
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-primary mb-4">Growth Partner</h3>
                   <div className="text-4xl font-bold text-gray-900 mb-2">$3,500</div>
-                  <p className="text-gray-600">per month + 15% of ad spend</p>
+                  <p className="text-gray-600">per month + 10% of ad spend</p>
                 </div>
                 
                 <ul className="space-y-4 mb-8">
@@ -352,7 +351,6 @@ export default function PricingPage() {
         {/* Contact Form */}
         <ContactSection />
       </main>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
