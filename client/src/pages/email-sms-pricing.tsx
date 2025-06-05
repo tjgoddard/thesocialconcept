@@ -274,9 +274,7 @@ export default function EmailSMSPricingPage() {
                 className="border-b border-gray-200 pb-8"
               >
                 <h3 className="text-xl font-bold text-primary mb-4">Which platforms do you work with?</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  We work with all major email and SMS platforms including Klaviyo, Mailchimp, Constant Contact, Postmark, Twilio, and Attentive. We'll recommend the best platform for your needs and handle the migration if needed.
-                </p>
+                <p className="text-gray-600 leading-relaxed">We work with all major email and SMS platforms. We'll recommend the best platform for your needs and handle the migration if needed.</p>
               </motion.div>
 
               <motion.div
