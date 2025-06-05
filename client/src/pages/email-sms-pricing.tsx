@@ -284,7 +284,7 @@ export default function EmailSMSPricingPage() {
                 viewport={{ once: true }}
                 className="border-b border-gray-200 pb-8"
               >
-                <h3 className="text-xl font-bold text-primary mb-4">Do I need a large email list to get started?</h3>
+                <h3 className="text-xl font-bold text-primary mb-4">Do I need a large list to get started?</h3>
                 <p className="text-gray-600 leading-relaxed">
                   No. We can work with lists of any size and focus on growing your list with quality subscribers while maximizing revenue from your existing contacts. Quality engagement matters more than list size.
                 </p>
