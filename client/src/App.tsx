@@ -8,8 +8,6 @@ import TikTokPage from "@/pages/tiktok";
 import SMSPage from "@/pages/sms";
 import EmailPage from "@/pages/email";
 import MetaPage from "@/pages/meta";
-import PricingPage from "@/pages/pricing";
-import EmailSMSPricingPage from "@/pages/email-sms-pricing";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -20,8 +18,7 @@ function Router() {
       <Route path="/sms" component={SMSPage} />
       <Route path="/email" component={EmailPage} />
       <Route path="/meta" component={MetaPage} />
-      <Route path="/paid-media-pricing" component={PricingPage} />
-      <Route path="/email-sms-pricing" component={EmailSMSPricingPage} />
+
       <Route component={NotFound} />
     </Switch>
   );
